@@ -1,0 +1,18 @@
+development:
+  client_id: ihjwrntvk1
+  client_secret: 2xeeb7srvhl4kv1nw8n9q8h1dylvttf592zyvkq9dbtzy2sk
+  redirect_uri: http://localhost:3000 
+  site: https://api.sandbox.inbloom.org/ 
+  rest_url: api/rest/v1.2/
+test:
+  client_id: 23456
+  client_secret: bcdefg
+  redirect_uri: http://test-server
+  site: https://api.sandbox.inbloom.org/ 
+  rest_url: api/rest/v1.2/
+production:
+  client_id: 34567
+  client_secret: cdefgh
+  redirect_uri: http://production-server 
+  site: https://api.sandbox.inbloom.org/ 
+  rest_url: api/rest/v1.2/

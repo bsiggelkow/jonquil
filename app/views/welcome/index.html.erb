@@ -1,0 +1,10 @@
+<h2>Welcome</h2>
+<% if session[:token] %>
+  <div><%= link_to "Sign Out", signout_path %></div>
+  <div><%= @rest_home %></div>
+  <hr/>
+  <div><%= @self %></div>
+<% else %>
+  <h1>Hello!</h1>
+  <%=link_to "Sign in with inBloom", "/auth/inbloom" %>
+<% end %>
